@@ -4,15 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width ,initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|PT+Sans+Narrow|Josefin+Sans|Varela+Round" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Amiri|Roboto|PT+Sans+Narrow|Josefin+Sans|Varela+Round" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target="#menu">
+<!--
   <div class="header">
-    <!-- <p id="q">qlip</p>
-      <p id="about">About Portfolio Contact</p>-->
+    
     <div class="cname">
       <a href="#">S Priyadarshini</a>
     </div>
@@ -24,46 +30,84 @@
       </ul>
     </div>
   </div>
-  <div class="intro" id="top">
-    <h3>This site serves as a snapshot of my profile.
-    </h3>
-    <img class="image" src="images/priya.jpg" />
-    <p class="i-text">Self-learnt front end developer seeking career opportunity again, preferably flex-hours; 3 years prior exp in dev / maintenance projects in Infosys, Polaris.</p>
-    <hr class="line"><span>&lt/&gt
-
-      </span>
-    <p>Web Developer -- Core skillset : HTML ,CSS, Javascript</p>
+  Version 1.0 -->
+<nav class="navbar navbar-default navbar-fixed-top" id="header">
+<div class="container" id="f-box">
+  <div><p>S.Priyadarshini</p></div>
+  <div class="navbar-collapse collapse" id="menu">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active m-item"><a href="#top">ABOUT</a></li>
+      <li class="m-item"><a href="#portfolio">PORTFOLIO</a></li>
+      <li class="m-item"><a href="#contact">CONTACT</a></li>
+    </ul>
 
   </div>
-  <div class="port" id="portfolio">
-    <h3 class="sub-h">PORTFOLIO</h3>
-    <hr class="line"><span>&lt/&gt</span>
-    <p>This is a list of the assignments I took up. For the past 3 months, I have been self-learning frontend web development courses via "Coursera”.I have successfully completed all exercises that were part of the course. They are hosted in my Github account.With
-      the strong foundation that I have gained from the online courses, along with my bent for frontend web development, I am confident of designing impressive web solutions.</p>
-
-    <div class="p-images">
-      <div>
-        <!--<img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" />-->
-        <a href="https://preiyah.github.io/restaurant-site/"> <img title="Restaurant Website" src="images/rest.png" width="200" height="150"></a>
-      </div>
-      <div>
-        <a href="https://preiyah.github.io/catamil/"> <img title="Remodelling existing website" src="images/catamil.png" width="200" height="150"></a>
-      </div>
-      <div>
-        <a href="https://preiyah.github.io/coursera-test/mod3_solution/"> <img title="Navigation study" src="images/nav.png" width="200" height="150"></a>
-      </div>
-      <div>
-        <a href="https://preiyah.github.io/coursera-test/mod2_solution/"> <img title="Responsiveness study" src="images/responsive.png" width="200" height="150"></a>
-      </div>
+  <button type="button"  class="navbar-toggle collapsed" data-target="#menu" data-toggle="collapse">
+    <span class="icon-bar"> </span>  
+    <span class="icon-bar"> </span>
+    <span class="icon-bar"> </span> 
+  </button>
+</div>
+</nav>
+<div class="intro" id="top">
+    <h2>This site serves as a snapshot of my profile.
+    </h2>
+    <div class="h-content">
+    <div class="h-text">
+    <p>Self-learnt front end developer seeking career opportunity again, preferably flex-hours; 4 years prior exp in dev / maintenance projects in Infosys, Polaris.</p>
+    <hr class="line" id="bright">
+    <p>Web Developer -- Core skillset : HTML ,CSS, Javascript</p>
 
     </div>
-    <p>Briefly put, I was associated with maintenance projects in IT majors before I took a 4-year long break from career. I have now upskilled myself with knowledge on web development fundamentals as I intend to re-embark on my career.</p>
+    <div >
+    <img class="image" src="images/priya_1.png" />
+    </div>
+
+  </div> 
+
+  </div>
+
+  <div class="port" id="portfolio">
+    <!--<h3 class="sub-h">PORTFOLIO</h3>
+    <hr class="line"><span>&lt;/&gt;</span>Version 1.0 -->
+    <div class="underline">
+      <h3 class="sub-h">PORTFOLIO</h3>
+      <hr class="line">
+    </div>
+    <p>This is a list of the assignments I took up. For the past 6 months, I have been self-learning frontend web development courses via "Coursera”.I have successfully completed all exercises that were part of the course. They are hosted in my Github account.With
+      the strong foundation that I have gained from the online courses, along with my bent for frontend web development, I am confident of designing impressive web solutions.</p>
+
+    <ul class="p-images">
+    <li>
+        <!--<img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" />-->
+        <a href="https://preiyah.github.io/Beecharge/"> <img title="Beecharge website" src="images/beecharge.png" ></a>
+      </li>
+      <li>
+        <!--<img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" />-->
+        <a href="https://preiyah.github.io/ecommerce-site/"> <img title="Beecharge website" src="images/ecommerce_site.png" ></a>
+      </li>
+      <li>
+        <!--<img src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" />-->
+        <a href="https://preiyah.github.io/restaurant-site/"> <img title="Restaurant Website" src="images/rest.png" ></a>
+      </li>
+      <li>
+        <a href="https://preiyah.github.io/catamil/"> <img title="Remodelling existing website" src="images/catamil.png" ></a>
+      </li>
+      <li>
+        <a href="https://preiyah.github.io/coursera-test/mod3_solution/"> <img title="Navigation study" src="images/nav.png" ></a>
+      </li>
+      <li>
+        <a href="https://preiyah.github.io/coursera-test/mod2_solution/"> <img title="Responsiveness study" src="images/responsive.png" ></a>
+      </li>
+
+    </ul>
+    <p>Briefly put, I was associated with maintenance projects in IT majors before I took a 5-year long break from career. I have now upskilled myself with knowledge on web development fundamentals as I intend to re-embark on my career.</p>
 
   </div>
 
   <div class="port" id="contact">
     <h3 class="sub-h">CONTACT ME</h3>
-    <hr class="line"><span>&lt/&gt</span>
+    <hr class="line">
     <div class="contact">
       <form>
         <input type="text" value="Name" size="30"><br>
@@ -83,7 +127,7 @@
       </span>-->
       <div class="social">
         <div class="link">
-          <a href="#"><img src="http://freevector.co/wp-content/uploads/2010/10/linkedin-icon.png" /></a>
+          <a href="https://www.linkedin.com/in/priya-shankar-b5692833/"><img src="http://freevector.co/wp-content/uploads/2010/10/linkedin-icon.png" /></a>
         </div>
         <div class="link">
           <a href="https://github.com/preiyah"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-256.png" /></a>
@@ -91,6 +135,11 @@
       </div>
     </div>
   </div>
+  <a class="button hidden-sm hidden-md hidden-lg" id="scroll" href="#top">
+  <i class="fa fa-fw fa-chevron-up"></i>
+  </a>
+
+  
 </body>
 
 </html>
